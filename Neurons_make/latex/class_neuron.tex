@@ -1,0 +1,140 @@
+\hypertarget{class_neuron}{}\section{Neuron Class Reference}
+\label{class_neuron}\index{Neuron@{Neuron}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_neuron_aafdc2e6e981b524d6de8453116751009}{Neuron} (\hyperlink{neuron_8hpp_a1d1cfd8ffb84e947f82999c682b666a7}{Type} type)
+\item 
+bool \hyperlink{class_neuron_a28f735ec9735d7a41306a517307bf69f}{update} (double sim\+Step)
+\item 
+bool \hyperlink{class_neuron_a0776f227945fe6082a1e080039158972}{update\+Test} (double i\+Ext, double sim\+Step)
+\item 
+std\+::vector$<$ long $>$ \hyperlink{class_neuron_a34710c23e78097abdad63ff0abc544d8}{get\+Spikes\+Time} ()
+\item 
+double \hyperlink{class_neuron_ad3d6daf9c6c1aa35dc55afb362d74a55}{getV} ()
+\item 
+double \hyperlink{class_neuron_a785e7e450147879ffd9e4ba385f870b0}{getJ} ()
+\item 
+void \hyperlink{class_neuron_a39df21c3ca040d88bc50f87f3af0ed35}{receive} (long step, double J)
+\begin{DoxyCompactList}\small\item\em put the E\+S\+PS received in the ring\+Buffer that manage the delay of the actual effect of the E\+S\+PS \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_neuron_aafdc2e6e981b524d6de8453116751009}\label{class_neuron_aafdc2e6e981b524d6de8453116751009}} 
+\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\index{Neuron@{Neuron}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{Neuron()}{Neuron()}}
+{\footnotesize\ttfamily Neuron\+::\+Neuron (\begin{DoxyParamCaption}\item[{\hyperlink{neuron_8hpp_a1d1cfd8ffb84e947f82999c682b666a7}{Type}}]{type }\end{DoxyParamCaption})}
+
+Constructor needs a type (I\+N\+H\+I\+B\+I\+T\+O\+RY or E\+X\+C\+I\+T\+A\+T\+O\+RY) to set the specific J (the amplitude of the E\+P\+SP) \begin{DoxyNote}{Note}
+the neuron is R\+E\+F\+R\+A\+C\+T\+O\+RY by default 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the type of the neuron\\
+\hline
+\end{DoxyParams}
+Constructor needs a type (I\+N\+H\+I\+B\+I\+T\+O\+RY or E\+X\+C\+I\+T\+A\+T\+O\+RY) to set the specific J (the amplitude of the E\+P\+SP) \begin{DoxyNote}{Note}
+the neuron is R\+E\+F\+R\+A\+C\+T\+O\+RY by default 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_neuron_a785e7e450147879ffd9e4ba385f870b0}\label{class_neuron_a785e7e450147879ffd9e4ba385f870b0}} 
+\index{Neuron@{Neuron}!getJ@{getJ}}
+\index{getJ@{getJ}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{get\+J()}{getJ()}}
+{\footnotesize\ttfamily double Neuron\+::getJ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+getJ \begin{DoxyReturn}{Returns}
+J the amplitude of the E\+P\+SP (excitatory post synaptic potential) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_neuron_a34710c23e78097abdad63ff0abc544d8}\label{class_neuron_a34710c23e78097abdad63ff0abc544d8}} 
+\index{Neuron@{Neuron}!get\+Spikes\+Time@{get\+Spikes\+Time}}
+\index{get\+Spikes\+Time@{get\+Spikes\+Time}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{get\+Spikes\+Time()}{getSpikesTime()}}
+{\footnotesize\ttfamily vector$<$ long $>$ Neuron\+::get\+Spikes\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+get\+Spikes\+Time \begin{DoxyReturn}{Returns}
+spikes the step when a spike occured 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_neuron_ad3d6daf9c6c1aa35dc55afb362d74a55}\label{class_neuron_ad3d6daf9c6c1aa35dc55afb362d74a55}} 
+\index{Neuron@{Neuron}!getV@{getV}}
+\index{getV@{getV}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{get\+V()}{getV()}}
+{\footnotesize\ttfamily double Neuron\+::getV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+getV \begin{DoxyReturn}{Returns}
+v the membrane potential of the neuron 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_neuron_a39df21c3ca040d88bc50f87f3af0ed35}\label{class_neuron_a39df21c3ca040d88bc50f87f3af0ed35}} 
+\index{Neuron@{Neuron}!receive@{receive}}
+\index{receive@{receive}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{receive()}{receive()}}
+{\footnotesize\ttfamily void Neuron\+::receive (\begin{DoxyParamCaption}\item[{long}]{step,  }\item[{double}]{J }\end{DoxyParamCaption})}
+
+
+
+put the E\+S\+PS received in the ring\+Buffer that manage the delay of the actual effect of the E\+S\+PS 
+
+receive 
+\begin{DoxyParams}{Parameters}
+{\em step} & the step at which the neuron receive an E\+P\+SP from an other one \\
+\hline
+{\em J} & the amplitude of the E\+P\+SP that is received \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_neuron_a28f735ec9735d7a41306a517307bf69f}\label{class_neuron_a28f735ec9735d7a41306a517307bf69f}} 
+\index{Neuron@{Neuron}!update@{update}}
+\index{update@{update}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily bool Neuron\+::update (\begin{DoxyParamCaption}\item[{double}]{sim\+Step }\end{DoxyParamCaption})}
+
+update 
+\begin{DoxyParams}{Parameters}
+{\em sim\+Step} & the time expressed in steps at which the neuron update \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em T\+R\+UE} & the neuron spikes \\
+\hline
+{\em F\+A\+L\+SE} & the neuron doesn\textquotesingle{}t spike \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_neuron_a0776f227945fe6082a1e080039158972}\label{class_neuron_a0776f227945fe6082a1e080039158972}} 
+\index{Neuron@{Neuron}!update\+Test@{update\+Test}}
+\index{update\+Test@{update\+Test}!Neuron@{Neuron}}
+\subsubsection{\texorpdfstring{update\+Test()}{updateTest()}}
+{\footnotesize\ttfamily bool Neuron\+::update\+Test (\begin{DoxyParamCaption}\item[{double}]{i\+Ext,  }\item[{double}]{sim\+Step }\end{DoxyParamCaption})}
+
+update\+Test
+
+\begin{DoxyNote}{Note}
+only used for unittest to check if the update is well implemented 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em i\+Ext} & the current given to the neuron \\
+\hline
+{\em sim\+Step} & the time expressed in steps at which the neuron update \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em T\+R\+UE} & the neuron spikes \\
+\hline
+{\em F\+A\+L\+SE} & the neuron doesn\textquotesingle{}t spike \\
+\hline
+\end{DoxyRetVals}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{neuron_8hpp}{neuron.\+hpp}\item 
+\hyperlink{neuron_8cpp}{neuron.\+cpp}\end{DoxyCompactItemize}

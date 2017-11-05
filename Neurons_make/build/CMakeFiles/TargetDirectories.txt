@@ -1,0 +1,11 @@
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/rebuild_cache.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/edit_cache.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/test.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/doc.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/Neurons.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/Neurons_unittest.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/test.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/rebuild_cache.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/edit_cache.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/gtest_main.dir
+/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/gtest.dir

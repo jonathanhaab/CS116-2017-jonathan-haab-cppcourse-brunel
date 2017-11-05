@@ -1,0 +1,96 @@
+\hypertarget{class_network}{}\section{Network Class Reference}
+\label{class_network}\index{Network@{Network}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_ac067f2575e351b3bf3f7984e28dc17f3}{Network} (std\+::string title)
+\item 
+\hyperlink{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}{$\sim$\+Network} ()
+\item 
+void \hyperlink{class_network_a7ff4ea46a5eeafd9d9f16add01cb06b7}{update} (double sim\+Step)
+\item 
+void \hyperlink{class_network_a4963f8d1528bbb233b37b24f90f00560}{write\+Spikes} (std\+::ofstream \&out)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_network_ac067f2575e351b3bf3f7984e28dc17f3}\label{class_network_ac067f2575e351b3bf3f7984e28dc17f3}} 
+\index{Network@{Network}!Network@{Network}}
+\index{Network@{Network}!Network@{Network}}
+\subsubsection{\texorpdfstring{Network()}{Network()}}
+{\footnotesize\ttfamily Network\+::\+Network (\begin{DoxyParamCaption}\item[{std\+::string}]{title }\end{DoxyParamCaption})}
+
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & the title of the file in which we want to print the data of the update\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+opens the flow to write the data
+\end{DoxyNote}
+Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em title} & the title of the file in which we want to print the data of the update\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+opens the flow to write the data Destructor
+
+close the flow used to write the data 
+\end{DoxyNote}
+\mbox{\Hypertarget{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}\label{class_network_a7a4e19cdb4bf0c7ecf82baa643831492}} 
+\index{Network@{Network}!````~Network@{$\sim$\+Network}}
+\index{````~Network@{$\sim$\+Network}!Network@{Network}}
+\subsubsection{\texorpdfstring{$\sim$\+Network()}{~Network()}}
+{\footnotesize\ttfamily Network\+::$\sim$\+Network (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor
+
+\begin{DoxyNote}{Note}
+close the flow used to write the data 
+\end{DoxyNote}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_network_a7ff4ea46a5eeafd9d9f16add01cb06b7}\label{class_network_a7ff4ea46a5eeafd9d9f16add01cb06b7}} 
+\index{Network@{Network}!update@{update}}
+\index{update@{update}!Network@{Network}}
+\subsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Network\+::update (\begin{DoxyParamCaption}\item[{double}]{sim\+Step }\end{DoxyParamCaption})}
+
+update
+
+
+\begin{DoxyParams}{Parameters}
+{\em sim\+Step} & the step of the simulation at which we want to update de network of neurons\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+prints all the neurons id that spikes at a certain time like this \+: time in ms neuron n°1 neuron n°2 ... 
+\end{DoxyNote}
+\mbox{\Hypertarget{class_network_a4963f8d1528bbb233b37b24f90f00560}\label{class_network_a4963f8d1528bbb233b37b24f90f00560}} 
+\index{Network@{Network}!write\+Spikes@{write\+Spikes}}
+\index{write\+Spikes@{write\+Spikes}!Network@{Network}}
+\subsubsection{\texorpdfstring{write\+Spikes()}{writeSpikes()}}
+{\footnotesize\ttfamily void Network\+::write\+Spikes (\begin{DoxyParamCaption}\item[{std\+::ofstream \&}]{out }\end{DoxyParamCaption})}
+
+write\+Spikes
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & the file in which we want to print the spikes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+gives the spike\textquotesingle{}s times for each neuron like this \+: neuron id spike time n°1 spike time n°2 ... 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{network_8hpp}{network.\+hpp}\item 
+\hyperlink{network_8cpp}{network.\+cpp}\end{DoxyCompactItemize}

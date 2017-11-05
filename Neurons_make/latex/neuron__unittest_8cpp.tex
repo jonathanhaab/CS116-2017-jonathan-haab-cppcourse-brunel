@@ -1,0 +1,382 @@
+\hypertarget{neuron__unittest_8cpp}{}\section{neuron\+\_\+unittest.\+cpp File Reference}
+\label{neuron__unittest_8cpp}\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+
+
+Contains all the googletests to control the Neurons project.  
+
+
+{\ttfamily \#include \char`\"{}neuron.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}gtest/gtest.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{neuron__unittest_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{neuron__unittest_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\item 
+\hyperlink{neuron__unittest_8cpp_a49acede5c3927fa554eed4ac3442ad58}{T\+E\+ST} (Neurontest, Excitatory\+Imput1)
+\begin{DoxyCompactList}\small\item\em the neuron should tend to a potential of 20 mV without ever reaching it \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a9d3f43a3f37671b3a8331db69dc98d84}{T\+E\+ST} (Neurontest, Excitatory\+Imput0)
+\begin{DoxyCompactList}\small\item\em the neuron should never get any potential \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a97d52276ead5496c548668be21fbb5f7}{T\+E\+ST} (Neurontest, Excitatory\+Imput1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the neuron should spike at the moment it reaches a potential of 20 mV and then see its potential falling to 0 \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a68bc0c6bea3029b4c74f5bf4b92592e5}{T\+E\+ST} (Neurontest, Inhibitory\+Imput1)
+\begin{DoxyCompactList}\small\item\em the neuron should tend to a potential of 20 mV without ever reaching it \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_ae0aa90eb5697bc18a8913b47b1912a36}{T\+E\+ST} (Neurontest, Inhibitory\+Imput0)
+\begin{DoxyCompactList}\small\item\em the neuron should never get any potential \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a20c39f000b722209f449b3ce313c11a1}{T\+E\+ST} (Neurontest, Inhibitory\+Imput1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the neuron should spike at the moment it reaches a potential of 20 mV and then see its potential falling to 0 \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a40cb3436570a431ec0aada45db654b03}{T\+E\+ST} (Neurontest, Excitatory\+Refractory\+Time)
+\begin{DoxyCompactList}\small\item\em the neuron should be refractory for a certain time determined by the variable refractory\+Time from the constants.\+cpp file \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_abfb559dc3e40f6f58dcf7bd1684078f0}{T\+E\+ST} (Neurontest, Inhibitory\+Refractory\+Time)
+\begin{DoxyCompactList}\small\item\em the neuron should be refractory for a certain time determined by the variable refractory\+Time from the constants.\+cpp file \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_aa4313ebf08f2aa502eb8c89ed8e0bb44}{T\+E\+ST} (Neurontest, Excitatory\+Excitatory\+Connexion1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the second neuron should receive a potential of J\+\_\+e from the first one after a certain time defined by the buffer\+Time variable \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a726784622a0438c04dcf4ef79cdb617a}{T\+E\+ST} (Neurontest, Inhibitory\+Excitatory\+Connexion1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the excitatory neuron should receive a potential of J\+\_\+i from the inhibitory after a certain time defined by the buffer\+Time variable \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a164c18cdda0bafdb6517df0d049ac7e5}{T\+E\+ST} (Neurontest, Excitatory\+Inhibitory\+Connexion1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the inhibitory neuron should receive a potential of J\+\_\+e from the excitatory one after a certain time defined by the buffer\+Time variable \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_ab417907df97a715c327f57b21f07708c}{T\+E\+ST} (Neurontest, Inhibitory\+Inhibitory\+Connexion1\+\_\+01)
+\begin{DoxyCompactList}\small\item\em the second neuron should receive a potential of J\+\_\+i from the first one after a certain time defined by the buffer\+Time variable \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a7a1a809fc7dd8f1064fcf168a3660199}{T\+E\+ST} (Neurontest, Excitatory\+Excitatory\+Induced\+Spike)
+\begin{DoxyCompactList}\small\item\em the second neuron should receive just enough potential to spike \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a54bfe13e7c5f860c959ca525534e4591}{T\+E\+ST} (Neurontest, Inhibitory\+Excitatory\+Induced\+Spike)
+\begin{DoxyCompactList}\small\item\em the excitatory should never spike \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_aed9bcc8c0bbb9c9d40ff0c72e15424a4}{T\+E\+ST} (Neurontest, Excitatory\+Inhibitory\+Induced\+Spike)
+\begin{DoxyCompactList}\small\item\em the inhibitory neuron should receive just enough potential to spike \end{DoxyCompactList}\item 
+\hyperlink{neuron__unittest_8cpp_a5881c41e810595e5d7b26da150b60e4a}{T\+E\+ST} (Neurontest, Inhibitory\+Inhibitory\+Induced\+Spike)
+\begin{DoxyCompactList}\small\item\em the second one should never spike \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Contains all the googletests to control the Neurons project. 
+
+\begin{DoxyAuthor}{Author}
+Jonathan Haab 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Automn, 2017 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a49acede5c3927fa554eed4ac3442ad58}\label{neuron__unittest_8cpp_a49acede5c3927fa554eed4ac3442ad58}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Imput1}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should tend to a potential of 20 mV without ever reaching it 
+
+Excitatory\+Imput1 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000001}{Test}]Excitatory\+Imput1 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron getting an imput current of 1.\+0 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron spikes or if its potential doesn\textquotesingle{}t tend to 20 mV after several updates \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a9d3f43a3f37671b3a8331db69dc98d84}\label{neuron__unittest_8cpp_a9d3f43a3f37671b3a8331db69dc98d84}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Imput0}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should never get any potential 
+
+Excitatory\+Imput0 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000002}{Test}]Excitatory\+Imput0 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron getting an imput current of 0 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t 0 after several updates \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a97d52276ead5496c548668be21fbb5f7}\label{neuron__unittest_8cpp_a97d52276ead5496c548668be21fbb5f7}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [3/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Imput1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should spike at the moment it reaches a potential of 20 mV and then see its potential falling to 0 
+
+Excitatory\+Imput1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000003}{Test}]Excitatory\+Imput1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron getting an imput current of 1.\+01 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t close to 20 at known time and if its potential doesn\textquotesingle{}t fall to 0 at the next step \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a68bc0c6bea3029b4c74f5bf4b92592e5}\label{neuron__unittest_8cpp_a68bc0c6bea3029b4c74f5bf4b92592e5}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [4/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Imput1}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should tend to a potential of 20 mV without ever reaching it 
+
+Inhibitory\+Imput1 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000004}{Test}]Inhibitory\+Imput1 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron getting an imput current of 1.\+0 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron spikes or if its potential doesn\textquotesingle{}t tend to 20 mV after several updates \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_ae0aa90eb5697bc18a8913b47b1912a36}\label{neuron__unittest_8cpp_ae0aa90eb5697bc18a8913b47b1912a36}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [5/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Imput0}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should never get any potential 
+
+Inhibitory\+Imput0 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000005}{Test}]Inhibitory\+Imput0 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron getting an imput current of 0 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t 0 after several updates \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a20c39f000b722209f449b3ce313c11a1}\label{neuron__unittest_8cpp_a20c39f000b722209f449b3ce313c11a1}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [6/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Imput1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should spike at the moment it reaches a potential of 20 mV and then see its potential falling to 0 
+
+Inhibitory\+Imput1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000006}{Test}]Inhibitory\+Imput1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron getting an imput current of 1.\+01 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t close to 20 at known time and if its potential doesn\textquotesingle{}t fall to 0 at the next step \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a40cb3436570a431ec0aada45db654b03}\label{neuron__unittest_8cpp_a40cb3436570a431ec0aada45db654b03}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [7/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Refractory\+Time}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should be refractory for a certain time determined by the variable refractory\+Time from the constants.\+cpp file 
+
+Excitatory\+Refractory\+Time \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000007}{Test}]Excitatory\+Refractory\+Time \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron after it spikes 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t 0 for a certain time after it spike \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_abfb559dc3e40f6f58dcf7bd1684078f0}\label{neuron__unittest_8cpp_abfb559dc3e40f6f58dcf7bd1684078f0}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [8/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Refractory\+Time}]{ }\end{DoxyParamCaption})}
+
+
+
+the neuron should be refractory for a certain time determined by the variable refractory\+Time from the constants.\+cpp file 
+
+Inhibitory\+Refractory\+Time \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000008}{Test}]Inhibitory\+Refractory\+Time \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron after it spikes 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the neuron\textquotesingle{}s potential isn\textquotesingle{}t 0 for a certain time after it spike \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_aa4313ebf08f2aa502eb8c89ed8e0bb44}\label{neuron__unittest_8cpp_aa4313ebf08f2aa502eb8c89ed8e0bb44}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [9/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Excitatory\+Connexion1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the second neuron should receive a potential of J\+\_\+e from the first one after a certain time defined by the buffer\+Time variable 
+
+Excitatory\+Excitatory\+Connexion1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000009}{Test}]Excitatory\+Excitatory\+Connexion1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the connection of two excitatory neurons, one getting an imput current of 1.\+01 and the second the E\+P\+SP of the first one 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron\textquotesingle{}s potential isn\textquotesingle{}t equal to the E\+P\+SP value of the first and if it doesn\textquotesingle{}t receive it at the right time \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a726784622a0438c04dcf4ef79cdb617a}\label{neuron__unittest_8cpp_a726784622a0438c04dcf4ef79cdb617a}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [10/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Excitatory\+Connexion1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the excitatory neuron should receive a potential of J\+\_\+i from the inhibitory after a certain time defined by the buffer\+Time variable 
+
+Inhibitory\+Excitatory\+Connexion1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000010}{Test}]Inhibitory\+Excitatory\+Connexion1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the connection of an inhibitory to an excitatory neurons, the inhibitory getting an imput current of 1.\+01 and the excitatory the E\+P\+SP of the first one 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron\textquotesingle{}s potential isn\textquotesingle{}t equal to the E\+P\+SP value of the first and if it doesn\textquotesingle{}t receive it at the right time \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a164c18cdda0bafdb6517df0d049ac7e5}\label{neuron__unittest_8cpp_a164c18cdda0bafdb6517df0d049ac7e5}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [11/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Inhibitory\+Connexion1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the inhibitory neuron should receive a potential of J\+\_\+e from the excitatory one after a certain time defined by the buffer\+Time variable 
+
+Excitatory\+Inhibitory\+Connexion1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000011}{Test}]Excitatory\+Inhibitory\+Connexion1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the connection of an excitatory to an inhibitory neurons, the excitatory getting an imput current of 1.\+01 and the inhibitory the E\+P\+SP of the first one 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron\textquotesingle{}s potential isn\textquotesingle{}t equal to the E\+P\+SP value of the first and if it doesn\textquotesingle{}t receive it at the right time \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_ab417907df97a715c327f57b21f07708c}\label{neuron__unittest_8cpp_ab417907df97a715c327f57b21f07708c}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [12/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Inhibitory\+Connexion1\+\_\+01}]{ }\end{DoxyParamCaption})}
+
+
+
+the second neuron should receive a potential of J\+\_\+i from the first one after a certain time defined by the buffer\+Time variable 
+
+Inhibitory\+Inhibitory\+Connexion1\+\_\+01 \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000012}{Test}]Inhibitory\+Inhibitory\+Connexion1\+\_\+01 \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the connection of two inhibitory neurons, one getting an imput current of 1.\+01 and the second the E\+P\+SP of the first one 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron\textquotesingle{}s potential isn\textquotesingle{}t equal to the E\+P\+SP value of the first and if it doesn\textquotesingle{}t receive it at the right time \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a7a1a809fc7dd8f1064fcf168a3660199}\label{neuron__unittest_8cpp_a7a1a809fc7dd8f1064fcf168a3660199}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [13/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Excitatory\+Induced\+Spike}]{ }\end{DoxyParamCaption})}
+
+
+
+the second neuron should receive just enough potential to spike 
+
+Excitatory\+Excitatory\+Induced\+Spike \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000013}{Test}]Excitatory\+Excitatory\+Induced\+Spike \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron that receive an E\+P\+SP from an other as it tends to 20mV 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron doesn\textquotesingle{}t spike \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a54bfe13e7c5f860c959ca525534e4591}\label{neuron__unittest_8cpp_a54bfe13e7c5f860c959ca525534e4591}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [14/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Excitatory\+Induced\+Spike}]{ }\end{DoxyParamCaption})}
+
+
+
+the excitatory should never spike 
+
+Inhibitory\+Excitatory\+Induced\+Spike \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000014}{Test}]Inhibitory\+Excitatory\+Induced\+Spike \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an excitatory neuron that receive an E\+P\+SP from an inhibitory one as it tends to 20mV 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the excitatory neuron spikes \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_aed9bcc8c0bbb9c9d40ff0c72e15424a4}\label{neuron__unittest_8cpp_aed9bcc8c0bbb9c9d40ff0c72e15424a4}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [15/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Excitatory\+Inhibitory\+Induced\+Spike}]{ }\end{DoxyParamCaption})}
+
+
+
+the inhibitory neuron should receive just enough potential to spike 
+
+Excitatory\+Inhibitory\+Induced\+Spike \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000015}{Test}]Excitatory\+Inhibitory\+Induced\+Spike \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron that receive an E\+P\+SP from an excitatory one as it tends to 20mV 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the inhibitory neuron doesn\textquotesingle{}t spike \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{neuron__unittest_8cpp_a5881c41e810595e5d7b26da150b60e4a}\label{neuron__unittest_8cpp_a5881c41e810595e5d7b26da150b60e4a}} 
+\index{neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!neuron\+\_\+unittest.\+cpp@{neuron\+\_\+unittest.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [16/16]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{Neurontest}]{,  }\item[{Inhibitory\+Inhibitory\+Induced\+Spike}]{ }\end{DoxyParamCaption})}
+
+
+
+the second one should never spike 
+
+Inhibitory\+Inhibitory\+Induced\+Spike \begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000016}{Test}]Inhibitory\+Inhibitory\+Induced\+Spike \end{DoxyRefDesc}
+\begin{DoxyNote}{Note}
+test the behaviour of an inhibitory neuron that receive an E\+P\+SP from an other one as it tends to 20mV 
+\end{DoxyNote}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em error} & if the second neuron spikes \\
+\hline
+\end{DoxyExceptions}
