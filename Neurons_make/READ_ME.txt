@@ -5,8 +5,6 @@ Informations about the use of the « Neurons » project
 
 NEURONS——————————————————————————————————————————————————————————————————————————————
 
-!!! Before everything else, make sure you generate the correct cmake cache according to the emplacement of the Neurons_make folder in your computer !!!
-
 Follow the next instructions to run the simulation:
 
 1	go into the « build » folder through the terminal

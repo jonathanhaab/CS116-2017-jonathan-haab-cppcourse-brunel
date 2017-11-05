@@ -540,21 +540,21 @@ sys/types.h
 src/gtest-internal-inl.h
 ../googletest/src/src/gtest-internal-inl.h
 
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/gtest-all.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/gtest-all.cc
 gtest/gtest.h
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/gtest/gtest.h
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/gtest/gtest.h
 src/gtest.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-death-test.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-filepath.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-port.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-printers.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-test-part.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/src/gtest-typed-test.cc
+/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/src/gtest-typed-test.cc
 

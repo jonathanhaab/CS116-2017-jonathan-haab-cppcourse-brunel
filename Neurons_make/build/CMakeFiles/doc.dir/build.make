@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make
+CMAKE_SOURCE_DIR = /Users/jonathanhaab/Desktop/Neurons_make
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build
+CMAKE_BINARY_DIR = /Users/jonathanhaab/Desktop/Neurons_make/build
 
 # Utility rule file for doc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcours
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	cd /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make && /usr/local/bin/doxygen /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/Doxyfile
+	cd /Users/jonathanhaab/Desktop/Neurons_make && /usr/local/bin/doxygen /Users/jonathanhaab/Desktop/Neurons_make/build/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jonathanhaab/Desktop/Neurons_make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jonathanhaab/Desktop/Neurons_make /Users/jonathanhaab/Desktop/Neurons_make /Users/jonathanhaab/Desktop/Neurons_make/build /Users/jonathanhaab/Desktop/Neurons_make/build /Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

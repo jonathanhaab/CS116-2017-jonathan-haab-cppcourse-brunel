@@ -6,5 +6,5 @@ CXX_FLAGS = -W  -pedantic -std=c++11   -W  -pedantic -std=c++11  -DGTEST_HAS_PTH
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/include -I/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest 
+CXX_INCLUDES = -I/Users/jonathanhaab/Desktop/Neurons_make/googletest/include -I/Users/jonathanhaab/Desktop/Neurons_make/googletest 
 

@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make
+CMAKE_SOURCE_DIR = /Users/jonathanhaab/Desktop/Neurons_make
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build
+CMAKE_BINARY_DIR = /Users/jonathanhaab/Desktop/Neurons_make/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Neurons.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Neurons.dir/flags.make
 
 CMakeFiles/Neurons.dir/neuronMain.cpp.o: CMakeFiles/Neurons.dir/flags.make
 CMakeFiles/Neurons.dir/neuronMain.cpp.o: ../neuronMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Neurons.dir/neuronMain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/neuronMain.cpp.o -c /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuronMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Neurons.dir/neuronMain.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/neuronMain.cpp.o -c /Users/jonathanhaab/Desktop/Neurons_make/neuronMain.cpp
 
 CMakeFiles/Neurons.dir/neuronMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neurons.dir/neuronMain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuronMain.cpp > CMakeFiles/Neurons.dir/neuronMain.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/Neurons_make/neuronMain.cpp > CMakeFiles/Neurons.dir/neuronMain.cpp.i
 
 CMakeFiles/Neurons.dir/neuronMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neurons.dir/neuronMain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuronMain.cpp -o CMakeFiles/Neurons.dir/neuronMain.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/Neurons_make/neuronMain.cpp -o CMakeFiles/Neurons.dir/neuronMain.cpp.s
 
 CMakeFiles/Neurons.dir/neuronMain.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Neurons.dir/neuronMain.cpp.o.provides.build: CMakeFiles/Neurons.dir/n
 
 CMakeFiles/Neurons.dir/neuron.cpp.o: CMakeFiles/Neurons.dir/flags.make
 CMakeFiles/Neurons.dir/neuron.cpp.o: ../neuron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Neurons.dir/neuron.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/neuron.cpp.o -c /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Neurons.dir/neuron.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/neuron.cpp.o -c /Users/jonathanhaab/Desktop/Neurons_make/neuron.cpp
 
 CMakeFiles/Neurons.dir/neuron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neurons.dir/neuron.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuron.cpp > CMakeFiles/Neurons.dir/neuron.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/Neurons_make/neuron.cpp > CMakeFiles/Neurons.dir/neuron.cpp.i
 
 CMakeFiles/Neurons.dir/neuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neurons.dir/neuron.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/neuron.cpp -o CMakeFiles/Neurons.dir/neuron.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/Neurons_make/neuron.cpp -o CMakeFiles/Neurons.dir/neuron.cpp.s
 
 CMakeFiles/Neurons.dir/neuron.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Neurons.dir/neuron.cpp.o.provides.build: CMakeFiles/Neurons.dir/neuro
 
 CMakeFiles/Neurons.dir/network.cpp.o: CMakeFiles/Neurons.dir/flags.make
 CMakeFiles/Neurons.dir/network.cpp.o: ../network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Neurons.dir/network.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/network.cpp.o -c /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Neurons.dir/network.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Neurons.dir/network.cpp.o -c /Users/jonathanhaab/Desktop/Neurons_make/network.cpp
 
 CMakeFiles/Neurons.dir/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Neurons.dir/network.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/network.cpp > CMakeFiles/Neurons.dir/network.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonathanhaab/Desktop/Neurons_make/network.cpp > CMakeFiles/Neurons.dir/network.cpp.i
 
 CMakeFiles/Neurons.dir/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Neurons.dir/network.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/network.cpp -o CMakeFiles/Neurons.dir/network.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonathanhaab/Desktop/Neurons_make/network.cpp -o CMakeFiles/Neurons.dir/network.cpp.s
 
 CMakeFiles/Neurons.dir/network.cpp.o.requires:
 
@@ -143,7 +143,7 @@ Neurons: CMakeFiles/Neurons.dir/neuron.cpp.o
 Neurons: CMakeFiles/Neurons.dir/network.cpp.o
 Neurons: CMakeFiles/Neurons.dir/build.make
 Neurons: CMakeFiles/Neurons.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Neurons"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Neurons"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Neurons.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/Neurons.dir/clean:
 .PHONY : CMakeFiles/Neurons.dir/clean
 
 CMakeFiles/Neurons.dir/depend:
-	cd /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/CMakeFiles/Neurons.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jonathanhaab/Desktop/Neurons_make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jonathanhaab/Desktop/Neurons_make /Users/jonathanhaab/Desktop/Neurons_make /Users/jonathanhaab/Desktop/Neurons_make/build /Users/jonathanhaab/Desktop/Neurons_make/build /Users/jonathanhaab/Desktop/Neurons_make/build/CMakeFiles/Neurons.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Neurons.dir/depend
 

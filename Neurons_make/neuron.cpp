@@ -51,7 +51,8 @@ bool Neuron::update(double simStep)
 		if(state == ACTIVE) {
 
 			// Distribution de poisson
-			static poisson_distribution<> poisson(nu_ext * h);
+			//static poisson_distribution<> poisson(nu_ext * h);
+			static poisson_distribution<> poisson(v_th*h);
 			static random_device rd;
 			static mt19937 gen(rd());
 			
@@ -60,7 +61,7 @@ bool Neuron::update(double simStep)
 			double r(tau/c);
 			int x(localStep);
 			
-			v = c1*v + ringBuffer[x%(bufferDelay+1)] + poisson(gen);
+			v = c1*v + ringBuffer[x%(bufferDelay+1)] + J_e*poisson(gen);
 			
 			// Réinitialisation de la cellule du ringBuffer qui vient d'être utilisée
 			ringBuffer[x%(bufferDelay+1)] = 0;

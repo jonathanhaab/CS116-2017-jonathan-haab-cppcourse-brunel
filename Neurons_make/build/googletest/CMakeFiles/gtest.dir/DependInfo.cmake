@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest/src/gtest-all.cc" "/Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/Users/jonathanhaab/Desktop/Neurons_make/googletest/src/gtest-all.cc" "/Users/jonathanhaab/Desktop/Neurons_make/build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

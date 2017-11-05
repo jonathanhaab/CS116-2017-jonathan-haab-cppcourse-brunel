@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jonathanhaab/Desktop/CS116-2017-jonathan-haab-cppcourse-brunel/Neurons_make/googletest
+# Install script for directory: /Users/jonathanhaab/Desktop/Neurons_make/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
